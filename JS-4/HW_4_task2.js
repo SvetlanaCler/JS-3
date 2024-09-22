@@ -25,7 +25,8 @@ if (typeof age !== 'number') {
     // - Если "age" больше maxAge, вывести в консоль "Keep calm and look Culture channel".
     // - Иначе выводите "Technical work"
 
-else if (age < minAge) {
+else {
+  if (age < minAge) {
     console.log(`You don't have access cause your age is ${age} `);
 }else if (age >= minAge && age < maxAge){
     console.log("Welcome !");
