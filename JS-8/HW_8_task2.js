@@ -18,13 +18,13 @@ const words = [
 	'queue',
 ];
 
-function countVowels(word) {
+function countVowels(words) {
 	const vowels = 'eyuioa'
-	return [...word].filter(char => vowels.includes(char)).length
+	return [...words].filter(element => vowels.includes(element)).length
 }
 
-const sortedArrayOfWords = [...words].sort(
+const sortedArray= [...words].sort(
 	(a, b) => countVowels(a) - countVowels(b)
 )
 
-console.log(sortedArrayOfWords)
+console.log(sortedArray)
