@@ -1,4 +1,3 @@
-
 const n = 7;
 const a1 = String(n);
 const a2 = String(n) + a1;
