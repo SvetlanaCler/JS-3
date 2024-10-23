@@ -1,4 +1,4 @@
-// 'use strict'
+// /'use strict'
 // //Создайте переменную salary со значением 1000
 // let salary = 1000;
 // let grade;
